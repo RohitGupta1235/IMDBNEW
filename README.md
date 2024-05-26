@@ -1,16 +1,40 @@
 # IMDb Clone - React Project
 
-This is an IMDb clone built with React.js. The project uses CSS for styling the components.
+This project is an IMDb clone built with React.js. The project utilizes CSS for styling various components and pages.
 
 ## Project Structure
 
 - `public/`: Contains the static files such as `index.html`.
-- `src/`: Contains the React components and CSS files.
-  - `components/`: Directory for React components.
-  - `App.js`: Main React component.
-  - `App.css`: CSS file for styling the `App.js` component.
+- `src/`: Contains the main React application files.
+  - `components/`: Directory for reusable React components.
+    - Each component has its own directory containing a JavaScript file for the component logic and a CSS file for the component styling.
+    - For example, a `Card` component would have `Card.js` and `Card.css`.
+  - `pages/`: Directory for page-specific components.
+    - Each page has its own directory containing a JavaScript file for the page logic and a CSS file for the page styling.
+    - For example, a `HomePage` would have `HomePage.js` and `HomePage.css`.
+  - `App.js`: Main React component that serves as the entry point of the application.
+  - `App.css`: CSS file for styling the main `App` component.
   - `index.js`: Entry point for the React application.
-  - `index.css`: Global CSS file for general styling.
+  - `index.css`: Global CSS file for general styling applied across the entire application.
+
+
+ CSS Styling
+Component CSS:
+Each component within the components directory has a corresponding CSS file for its specific styling.
+This helps in maintaining modularity and makes it easier to manage styles for individual components.
+Page CSS:
+Each page within the pages directory has a corresponding CSS file for its specific styling.
+This approach keeps page-specific styles organized and contained within their respective directories.
+Global CSS:
+General styles that apply to the entire application are defined in the index.css file.
+The App.css file contains styles specific to the main App component.
+
+## How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/imdb-clone.git
+
 
 ## How to Run the Project
 
