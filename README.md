@@ -1,3 +1,22 @@
+# IMDb Clone - React Project
+
+This is an IMDb clone built with React.js. The project uses CSS for styling the components.
+
+## Project Structure
+
+- `public/`: Contains the static files such as `index.html`.
+- `src/`: Contains the React components and CSS files.
+  - `components/`: Directory for React components.
+  - `App.js`: Main React component.
+  - `App.css`: CSS file for styling the `App.js` component.
+  - `index.js`: Entry point for the React application.
+  - `index.css`: Global CSS file for general styling.
+
+## How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/imdb-clone.git
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
